@@ -6,7 +6,7 @@
 
 Projeto construído do curso Discover da Rocketseat.
 
-[🔗 Clique aqui para acessar](https://github.com/vlademir-junior)
+[🔗 Clique aqui para acessar](https://vlademir-junior.github.io/projeto-rocketseat)
 
 ## 🛠 Tecnologias
 
