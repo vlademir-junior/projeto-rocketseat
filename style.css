@@ -83,11 +83,11 @@ a {
   left: 0;
   z-index: 1;
   transform: translateY(-50%);
+  animation: slideOut 0.5s backwards;
 }
 
 .light #switch button {
-  right: 0;
-  left: initial;
+  animation: slideIn 0.5s forwards;
 }
 
 #switch span {
@@ -161,12 +161,32 @@ footer {
 
 /* @media queries */
 
-@media (min-width: 700px) {
+/* @media (min-width: 10000px) {
   :root {
     --bg-url: url(./images/bg-desktop.jpg);
   }
 
   .light {
     --bg-url: url(./images/bg-desktop-light.jpg);
+  }
+} */
+
+/* animations  */
+
+@keyframes slideIn {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes slideOut {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
   }
 }
