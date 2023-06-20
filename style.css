@@ -83,7 +83,11 @@ a {
   left: 0;
   z-index: 1;
   transform: translateY(-50%);
-  animation: slideOut 0.5s backwards;
+  animation: slideOut 0.5s;
+}
+
+#switch button:hover {
+  outline: 8px solid var(--highlight-color)
 }
 
 .light #switch button {
